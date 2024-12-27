@@ -1,0 +1,59 @@
+Enter the number of premises: 2
+Enter premise 1: x|y
+Enter premise 2: x&z
+Enter the conclusion: x
+
+Truth Table:
+       z       x       y       Premise 1       Premise 2     Conclusion
+       0       0       0               0               0               0
+       0       0       1               1               0               0
+       0       1       0               1               0               1
+       0       1       1               1               0               1
+       1       0       0               0               0               0
+       1       0       1               1               0               0
+       1       1       0               1               1               1
+       1       1       1               1               1               1
+
+Analysis Results:
+The set of statements is SATISFIABLE.
+The argument is VALID.
+ ********************************************second Test case*****************************
+Enter the number of premises: 2
+Enter premise 1: a->b
+Enter premise 2: b->c
+Enter the conclusion: a->c
+
+Truth Table:
+       c       a       b       Premise 1       Premise 2     Conclusion
+       0       0       0               1               1               1
+       0       0       1               1               0               1
+       0       1       0               0               1               0
+       0       1       1               1               0               0
+       1       0       0               1               1               1
+       1       0       1               1               1               1
+       1       1       0               0               1               1
+       1       1       1               1               1               1
+
+Analysis Results:
+The set of statements is SATISFIABLE.
+The argument is VALID.
+ ************************************************third test case********************************
+Enter the number of premises: 2
+Enter premise 1: c|b
+Enter premise 2: b&a
+Enter the conclusion: c
+
+Truth Table:
+       a       c       b       Premise 1       Premise 2     Conclusion
+       0       0       0               0               0               0
+       0       0       1               1               0               0
+       0       1       0               1               0               1
+       0       1       1               1               0               1
+       1       0       0               0               0               0
+       1       0       1               1               1               0
+       1       1       0               1               0               1
+       1       1       1               1               1               1
+
+Analysis Results:
+The set of statements is SATISFIABLE.
+The argument is FALSIFIABLE.
